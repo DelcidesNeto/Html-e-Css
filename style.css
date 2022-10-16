@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'fonte-titulo';
+    src: url('fontes/idroid.otf');
+}
+:root{
+    --cor_body: #ffff0057;
+    --cor02: linear-gradient(to bottom, #00ad00, #004400);
+    --cor_h2: #007400;
+    --fundo_h2: linear-gradient(to right, #07b0079a, #ffffffd6);
+}
+body{
+    margin: 0px;
+    background-color: var(--cor_body);
+}
+header{
+    height: 185px;
+    color: white;
+    background-image: var(--cor02);
+}
+header>h1{
+    text-align: center;
+    margin: 0px;
+    padding-top: 40px;
+}
+header>p{
+    text-align: center;
+}
+nav{
+    padding-left: 5px;
+}
+nav>a{
+    text-decoration: none;
+    color: #ffffffa0;
+    padding: 5px 10px;
+}
+nav>a:hover{
+    background-color: #ffffff50;
+    border-radius: 5px;
+}
+section#fundo{
+    padding: 5px 10px;
+    max-width: 1000px;
+    min-width: 300px;
+    background-color: #ffffffd6;
+    margin: auto;
+    box-shadow: 0px 0px 20px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;  
+}
+section#fundo>h1{
+    font-family: 'fonte-titulo';
+    color: #0d650d;
+}
+section#fundo>p, section#final>p{
+    text-align: justify;
+    text-indent: 20px;
+}
+p>strong{
+    color: green;
+}
+section#fundo>h2{
+    font-family: 'fonte-titulo';
+    color: var(--cor_h2);
+    background-image: var(--fundo_h2);
+}
+section#fundo>p>a{
+    text-decoration: none;
+    color: black;
+    background-color: #07b00764;
+    padding: 2px;
+}
+section#fundo>p>a:hover{
+    text-decoration: underline;
+}
+section#fundo>div#foto{
+    text-align: center;
+}
+div#video-youtube{
+    height: 350px;
+    padding: 50px;
+    text-align: center;
+    background-color: #00622a;
+    margin: 0px -10px;
+}
+section#final{
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: #00ad0072;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 13px #000000bb;
+}
+section#final>h3{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px;
+    background-color: #00622a;
+    color: white;
+}
+section#final>div#lista_1{
+    display: inline-block;
+    padding-left: 20px;
+    margin-right: 30%;
+}
+section#final>div{
+    display: inline-block;
+}
+section#final>p>a{
+    text-decoration: none;
+    color: green;
+    padding: 2px;
+}
+section#final>p>a:hover{
+    text-decoration: underline;
+}
+img{
+    width: 100%;
+}
+footer{
+    color: white;
+    margin-top: 50px;
+    background-color: #00622a;
+    text-align: center;
+}
