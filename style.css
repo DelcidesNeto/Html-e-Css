@@ -13,7 +13,7 @@ body{
     background-color: var(--cor_body);
 }
 header{
-    height: 185px;
+    min-height: 185px;
     color: white;
     background-image: var(--cor02);
 }
